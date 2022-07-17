@@ -2,13 +2,13 @@
 # Owner's Personal Information
 ###########################################################
 # This is your brand name
-brand: "Your Brand"
+brand: "IT Bebop"
 
 # text below the brand name
-brand_sub_text: "$site_sample"
+brand_sub_text: "LV-up Daily"
 
 # used for seo meta post author (if it's not defined in post)
-name: "Your Name"
+name: "bebop"
 
 # home page top header texts
 home:
@@ -19,7 +19,7 @@ home:
 
 # about page sub title
 about:
-  sub_title: "$site_sample"
+  sub_title: "LV-up Daily"
 
 # if you don't want to add copyright year, comment or leave it blank.
 # the year during which the claimed copyright for the work was first asserted.
