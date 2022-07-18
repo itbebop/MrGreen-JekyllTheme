@@ -11,12 +11,12 @@ category: auto generated
 # multiple tag entries are possible
 tags: [jekyll, test]
 # thumbnail image for post
-img: ":post_pic2.jpg"
+img: ":post_pic1.jpg"
 # disable comments on this page
 comments_disable: true
 
 # publish date
-date: 2021-10-14 18:47:35 +0900
+date: 2022-07-18 20:47:35 +0900
 
 # seo
 # if not specified, date will be used.
