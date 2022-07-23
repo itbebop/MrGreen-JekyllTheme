@@ -9,7 +9,7 @@ title: "the way to add lang"
 # multiple category is not supported
 category: auto generated
 # multiple tag entries are possible
-tags: [jekyll, test]
+tags: [jekyll]
 # thumbnail image for post
 img: ":post_pic1.jpg"
 # disable comments on this page
