@@ -4,21 +4,21 @@
 ###########################################################
 page_data:
   main:
-    header: "プロジェクト"
-    info: "プロジェクトページの説明はこちら。"
+    header: "프로젝트"
+    info: "프로젝트 정리"
     text_color: "white"
     # if you don't want to use background image, comment it. back_color will be activated.
     img: ":projects-heading.jpg"
     back_color: "lightblue"
 
   category:
-    - title: "例"
+    - title: "타이틀1"
       type: id_example
       color: "gray"
-    - title: "写真"
+    - title: "타이틀2"
       type: id_picture
       color: "#62b462"
-    - title: "名言"
+    - title: "타이틀3"
       type: id_quote
       color: "#2FD0ED"
 

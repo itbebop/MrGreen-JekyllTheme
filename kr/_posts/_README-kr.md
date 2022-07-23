@@ -1,6 +1,6 @@
-[[English](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/README.md#readme)] [日本語]
+[[Korean](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme/blob/main/README.md#readme)] [日本語]
 
-## Mr. Green Jekyll テーマ
+## Mr. Green Jekyll 테마
 
 <!-- readme -->
 
@@ -16,15 +16,13 @@
 <div align="center">
   <img src="https://jekyll-theme-mrgreen-demo.mrgreensworkshop.com/assets/img/posts/mock1.jpg" height="500" alt="screen_mock">
   <br><br>
-  <a href="https://jekyll-theme-mrgreen-demo.mrgreensworkshop.com/ja" style="font-weight: bold;" >ライブデモはこちら</a>
-</div>
 
 
 ### Introduction
 
 <!-- outline-start -->
 
-[Mr. Green](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme) は、[Jekyll](https://jekyllrb-ja.github.io) で生成された、[GitHub Pages](https://pages.github.com/) と完全に互換性のある多言語テーマです。
+[Mr. Green](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme) 은、[Jekyll](https://jekyllrb-ja.github.io)을 사용한 multilingual 테마이다. [GitHub Pages](https://pages.github.com/) 。
 
 <!-- outline-end -->
 
