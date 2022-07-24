@@ -39,8 +39,8 @@ lng_pair: id_links
 ###########################################################
 page_data:
   main:
-    header: "リンク"
-    info: "リンクページの説明はこちら。"
+    header: "즐겨찾기"
+    info: "추천 페이지 모음"
 
   # To change order of the Categories, simply change order. (you don't need to change list order.)
   category:
