@@ -41,61 +41,63 @@ date: 2022-07-24 17:12 +0900
 <h2>작업 순서</h2>
 <hr>
 
-1. Node.js 설치, 버전 확인<br>
-  1.1. Node.js 공식 사이트에서 <LTS 버전> 버튼을 눌러서 다운 & 설치
-  1.2. 설치 확인 <br>
-  - 명령프롬프트에서 버전 확인<br>
-  > node -v
+1. Node.js 설치, 버전 확인
+   1.1. Node.js 공식 사이트에서 <LTS 버전> 버튼을 눌러서 다운 & 설치
+   1.2. 설치 확인
+    * 명령프롬프트에서 버전 확인
+      > node -v
 
-<br>
-2. npm 설치, 확인<br>
-  2.1. npx란 1회성으로 최신 버전의 노드 패키지를 내려받아 설치시켜주는 노드 패키지. <br>
-  따라서 npx는 npm으로 설치해야한다. <br>
-  2.2. 설치 명령어<br>
-  - 명령프롬프트에서 <br>
-  > npm install npx -g 생략.. + npx@10.2.2<br>
-  added 293 packages from 654 contriburos in 11.548s
 
-<br>
-   2.3. 설치확인 <br>
-  - 명령프롬프트에서 <br>
-  > npm -v
+2. npm 설치, 확인
+   2.1. npx란 1회성으로 최신 버전의 노드 패키지를 내려받아 설치시켜주는 노드 패키지. <br>
+  따라서 npx는 npm으로 설치해야한다.
+   2.2. 설치 명령어
+    * 명령프롬프트에서
+      > npm install npx -g 생략.. + npx@10.2.2
+      > added 293 packages from 654 contriburos in 11.548s
 
-<br>
+    2.3. 설치확인
+    * 명령프롬프트에서
+      > npm -v
+
+
 3. 프로젝트 폴더 생성
-  3.1. 명령 프롬프트에서
-  > npx create-react-app movie_app_2022
+    * 명령 프롬프트에서
+      > npx create-react-app movie _app_2022
 
-  <br>
+
 4. vscode.git 설치
-<br>
+
+
 5. vscode에서 폴더 선택
-<br>
+
+
 6. README.md 파일 수정
-<br>
+
+
 7. package.json 파일 수정
-<br>
+  * 명령 프롬프트
+    > test : "react-scrips test"
+    > eject":"react-scrips eject"
 
-> test : "react-scrips test"
-> eject":"react-scrips eject"
+  * 윗 부분 삭제
 
-  윗 부분 삭제
-  <br>
 
 8. 리액트 앱 실행
-  - 명령 프롬프트에서
-  > npm start
+  * 명령 프롬프트
+    > npm start
 
   # 에러
-  > npm ERR! code ENOENT
-  npm ERR! syscall open
-	npm ERR! path C:\/package.json
-	npm ERR! errno -4058
-	npm ERR! enoent ENOENT: no such file or directory, open 'C:\package.json'
-	npm ERR! enoent This is related to npm not being able to find a file.
-	npm ERR! enoent
-	npm ERR! A complete log of this run can be found in:
-	npm ERR!     C:\Users\icicl\AppData\Local\npm-cache\_logs\2022-05-14T03_56_35_700Z-debug-0.log
+  * 명령 프롬프트
+    > npm ERR! code ENOENT
+    npm ERR! syscall open
+    npm ERR! path C:\/package.json
+    npm ERR! errno -4058
+    npm ERR! enoent ENOENT: no such file or directory, open 'C:\package.json'
+    npm ERR! enoent This is related to npm not being able to find a file.
+    npm ERR! enoent
+    npm ERR! A complete log of this run can be found in:
+    npm ERR!     C:\Users\icicl\AppData\Local\npm-cache\_logs\2022-05-14T03_56_35_700Z-debug-0.log
 
   <br>
   - 이건 package.json파일을 못찾는다는 내용이었음
@@ -104,7 +106,8 @@ date: 2022-07-24 17:12 +0900
   <br>
 
 9. 리액트 앱 종료
-> Ctrl + C
+  * 명령 프롬프트
+    > Ctrl + C
 
 <br>
 10. vscode 통합 터미널 실행방법
@@ -115,7 +118,7 @@ date: 2022-07-24 17:12 +0900
 {%- include util/auto-content-generator.liquid -%}
 
 <!-- outline-start -->
-
+<hr>
 #Setup
 
 <!-- outline-end -->
