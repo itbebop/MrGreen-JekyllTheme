@@ -42,21 +42,21 @@ date: 2022-07-24 17:12 +0900
 <hr>
 
 1. Node.js 설치, 버전 확인
-   1.1. Node.js 공식 사이트에서 <LTS 버전> 버튼을 눌러서 다운 & 설치
-   1.2. 설치 확인
+   1. Node.js 공식 사이트에서 <LTS 버전> 버튼을 눌러서 다운 & 설치
+   2. 설치 확인
     * 명령프롬프트에서 버전 확인
       > node -v
 
 
 2. npm 설치, 확인
-   2.1. npx란 1회성으로 최신 버전의 노드 패키지를 내려받아 설치시켜주는 노드 패키지. <br>
+    1. npx란 1회성으로 최신 버전의 노드 패키지를 내려받아 설치시켜주는 노드 패키지. <br>
   따라서 npx는 npm으로 설치해야한다.
-   2.2. 설치 명령어
+    2. 설치 명령어
     * 명령프롬프트에서
       > npm install npx -g 생략.. + npx@10.2.2
       > added 293 packages from 654 contriburos in 11.548s
 
-    2.3. 설치확인
+    3. 설치확인
     * 명령프롬프트에서
       > npm -v
 
@@ -76,20 +76,17 @@ date: 2022-07-24 17:12 +0900
 
 
 7. package.json 파일 수정
-  * 명령 프롬프트
+  * 이하 삭제
     > test : "react-scrips test"
     > eject":"react-scrips eject"
 
-  * 윗 부분 삭제
-
 
 8. 리액트 앱 실행
-  * 명령 프롬프트
+  * 시작
     > npm start
 
-  # 에러
-  * 명령 프롬프트
-    > npm ERR! code ENOENT
+   * 에러
+     > npm ERR! code ENOENT
     npm ERR! syscall open
     npm ERR! path C:\/package.json
     npm ERR! errno -4058
@@ -99,17 +96,15 @@ date: 2022-07-24 17:12 +0900
     npm ERR! A complete log of this run can be found in:
     npm ERR!     C:\Users\icicl\AppData\Local\npm-cache\_logs\2022-05-14T03_56_35_700Z-debug-0.log
 
-  <br>
-  - 이건 package.json파일을 못찾는다는 내용이었음
-  - 기존에 리액트 설치한 (package.json이 있는)폴더에서 cmd 실행해서 <br>
-  npm start를 하면 실행됨
-  <br>
+    - 이건 package.json파일을 못찾는다는 내용이었음
+    - 기존에 리액트 설치한 (package.json이 있는)폴더에서 cmd 실행해서 <br>
+    npm start를 하면 실행됨
 
 9. 리액트 앱 종료
   * 명령 프롬프트
     > Ctrl + C
 
-<br>
+
 10. vscode 통합 터미널 실행방법
   - 메뉴 / 터미널/ 새터미널
   - 단축키 : Ctrl+Shif+`
