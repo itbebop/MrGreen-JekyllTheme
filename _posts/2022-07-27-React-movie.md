@@ -1,7 +1,7 @@
 ---
 # multilingual page pair id, this must pair with translations of this page. (This name must be unique)
-lng_pair: id_React_1
-title: "React Setup"
+lng_pair: id_React_2
+title: "Git Setting"
 
 # post specific
 # if not specified, .name will be used from _data/owner/[language].yml
@@ -11,12 +11,12 @@ category: React
 # multiple tag entries are possible
 tags: [Setting]
 # thumbnail image for post
-img: ":post_pic1.jpg"
+img: ":post_pic2.jpg"
 # disable comments on this page
 #comments_disable: true
 
 # publish date
-date: 2022-07-24 17:12 +0900
+date: 2022-07-27 23:12 +0900
 
 # seo
 # if not specified, date will be used.
@@ -38,34 +38,64 @@ date: 2022-07-24 17:12 +0900
 ---
 
 {%- comment -%} Please delete below and place your page content here {%- endcomment -%}
-#Task Order
+#리액트 앱 업로드
 <hr>
 
-1. Check Node.js version and install
-  1. download <LTS version> at the official site of Node.js
-  2. check proper install
-    * in CMD
-        > node -v
+1. Local SavePoint reset
+* It's success when you see those messages.
+  > git init
+  > Initialized empty Git repository in ...
+  > Reinitialized existing Git repository in ..
 
-2. npm install and check
-  1. npx is the node package whick get the lastest node package downloaded and installed.
-  npx have to be install by npm.
-  2. install command
-    * CMD
-     > npm install npx -g .... + npx@10.2.2
-     > added 293 packages from 654 contriburos in 11.548s
-  3. check install
-  * CMD
-    > npm -v
+2. Making Repository
+   1. Create a New Repository
+   2. Repository name : movie_app_2022\
+   3. Desciption : React Js Fundamentals couse 2022
+<br>
 
+3. Upload App to Repository
+* CMD
+  > git remote add origin github.com/[Repository name]/movie_app_2022.git
+  > git add
+  > git commit -m "02-2 깃허브에 리액트 앱 업로드"
+  > git push origin master
 
-3. data/conf/main.yml에
-   <br>language_switch_lang_list: [en, ja, kr] 추가
+4. Check Repository
+
+<hr>
+
+#React App Preset
+<hr>
+1. Delete Files
+  * src Directory
+    App.css
+    App.test.js
+    index.css
+    logo.svg
+    seviceWorker.js
+    setupTests.js
+    package-lock.json
+
+2. index.js
+   Error that there is no 'index.css' occured when 'reportWebVitals();' isn't deleted.
+   So delete that part.
+
+* App.js
+ > return
+    <div> .. </div>
+
+Error
+
+ > return (
+    <div> .. </div>
+)
+
+Solved
 
 {%- include util/auto-content-generator.liquid -%}
 
 <!-- outline-start -->
 
-#Setup
+#Git
 
 <!-- outline-end -->
